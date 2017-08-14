@@ -1,0 +1,653 @@
+﻿// 0 core system
+0.$0001.en %1
+0.$0001.zh %1
+
+0.$0002.en File %1 not found!
+0.$0002.zh 文件 %1 没有找到!
+0.$0007.en Communicating error, please retry!
+0.$0007.zh 通信校验错误，请重新尝试！
+0.$0010.zh 请登录系统!
+0.$0010.en Please login at first!
+0.$0011.zh 记录不存在!
+0.$0011.en Record not found!
+0.$0023.zh 字段未找到!
+0.$0023.en Field not found!
+0.$0100.en Name must be A-Z,a-z,0-1,-,_
+0.$0100.zh 名称只能是字符A-Z,a-z,0-1,-,_
+0.$0101.en Name cannot be blank
+0.$0101.zh 名称不能为空
+0.$0102.en Memeber name %1 already exists cannot be blank
+0.$0102.zh 成员名称 %1 已经存在
+0.$0103.en Exceed name modifying times!
+0.$0103.zh 修改名称次数已达到，无法再修改！
+0.$0104.en Cannot find user!
+0.$0104.zh 没有找到用户！
+0.$0105.en Mobile cannot be blank!
+0.$0105.zh 手机号不能为空！
+
+0.$3000 %1
+0.$4000 %1
+
+0.$1001.en Language
+0.$1001.zh 语言
+
+0.$1002.zh 区域
+0.$1002.en Area
+0.$1003.zh 会员信息
+0.$1003.en Member info.
+
+
+0.$1004.zh 公告
+0.$1004.en Bulletin
+0.$1005.zh 直播
+0.$1005.en Live
+0.$1006.zh 培训
+0.$1006.en Training
+0.$1008.zh 论坛
+0.$1008.en Forum
+0.$1009.zh 学习
+0.$1009.en Study
+0.$1010.zh 业余比赛
+0.$1010.en Non-professional match
+0.$1011.zh 更多
+0.$1011.en More
+0.$1012.zh 修改
+0.$1012.en Edit
+0.$1013.zh 请选择
+0.$1013.en Please select
+0.$1014.zh 确定
+0.$1014.en Ok
+0.$1015.zh 取消
+0.$1015.en Cancel
+0.$1016.zh 我的短信
+0.$1016.en My messages
+0.$1017.zh 我的好友
+0.$1017.en My friends
+0.$1018.zh 新建公告
+0.$1018.en New bulletin
+0.$1019.en You have %1 times to modify your name.
+0.$1019.zh 您还有 %1 次修改名称的机会。
+0.$1020.en Country
+0.$1020.zh 国家
+0.$1021.en Province
+0.$1021.zh 省
+0.$1022.en City
+0.$1022.zh 城市
+0.$1023.en Base information
+0.$1023.zh 基本信息
+0.$1024.zh 短信
+0.$1024.en Message
+0.$1025.zh 备注
+0.$1025.en Remarks
+0.$1026.zh 创建人
+0.$1026.en Creator
+0.$1027.zh 创建时间
+0.$1027.en Create time
+0.$1028.zh 保存
+0.$1028.en Save
+0.$1029.zh 区域
+0.$1029.en Area
+0.$1030.zh 是
+0.$1030.en Yes
+0.$1031.zh 否
+0.$1031.en No
+0.$1032.zh 点击
+0.$1032.en Visit Count
+0.$1033.zh 状态
+0.$1033.en Status
+0.$1034.zh 姓名
+0.$1034.en Name
+0.$1035.zh 提交
+0.$1035.en Submit
+0.$1036.zh 搜索
+0.$1036.en Search
+0.$1037.zh 收件箱
+0.$1037.en Inbox
+0.$1038.zh 发件箱
+0.$1038.en Outbox
+0.$1039.zh 操作
+0.$1039.en Action
+0.$1040.zh 回复
+0.$1040.en Reply
+0.$1041.zh 接受
+0.$1041.en Accept
+0.$1042.zh 拒绝
+0.$1042.en Reject
+0.$1043.zh 发件人
+0.$1043.en Sender
+0.$1044.zh 收件人
+0.$1044.en Receiver
+0.$1045.zh 内容
+0.$1045.en Content
+0.$1046.zh 删除
+0.$1046.en Delete
+0.$1047.zh 收藏
+0.$1047.en Favorite
+0.$1048.zh 播放
+0.$1048.en Play
+0.$1049.zh 停止
+0.$1049.en Stop
+0.$1050.zh 秒
+0.$1050.en s
+0.$1051.zh 刷新
+0.$1051.en Refresh
+0.$1052.zh 手机
+0.$1052.en Mobile
+0.$1053.zh 查询手机
+0.$1053.en Inquire Mobile
+0.$1054.zh 评论
+0.$1054.en Comments
+0.$1055.zh 任何人可评
+0.$1055.en Anybody
+0.$1056.zh 参赛者可评
+0.$1056.en Attendee
+0.$1057.zh 关闭评论
+0.$1057.en Close
+0.$1058.zh 允许评论
+0.$1058.en Allowing comment
+0.$1059.zh 我要发帖
+0.$1059.en Comment now
+0.$1060.zh 返回
+0.$1060.en Back
+0.$1061.zh 首页
+0.$1061.en First
+0.$1062.zh 前五页
+0.$1062.en Prev
+0.$1063.zh 前页
+0.$1063.en Prev
+0.$1064.zh 后页
+0.$1064.en Next
+0.$1065.zh 后五页
+0.$1065.en Prev
+0.$1066.zh 末页
+0.$1066.en Last
+0.$1067.zh 引用并评论
+0.$1067.en Quote
+0.$1068.zh 直接评论
+0.$1068.en Comment
+0.$1069.zh 清空
+0.$1069.en Clear
+0.$1070.zh 确定删除
+0.$1070.en Confirm delete
+0.$1071.zh 取消删除
+0.$1071.en Cancel delete
+
+
+
+
+// sysid: 1 web app-buluo
+1.$1001.en Rank
+1.$1001.zh 排名
+1.$1001.fr Rang
+1.$1002.en Soldier
+1.$1002.zh 兵种
+1.$1002.fr Soldat
+1.$1003.en Building
+1.$1003.zh 建筑
+1.$1003.fr Le Bâtiment
+1.$1004.en Manage
+1.$1004.zh 管理
+1.$1004.fr Gérer
+
+1.$1005.zh 会员信息
+1.$1005.en Member Info.
+1.$1006.zh 结果录入
+1.$1006.en Input result
+
+1.$0010.en file %1 not found!
+1.$0010.zh 文件 %1 没有找到!
+1.$0010.sp archivo %1 no encontrado!
+1.$0010.jp ファイル %1 が見つかりません!
+1.$0010.kr 파일 %1 를 찾을 수 없습니다!
+1.$0010.ru Файл %1 не найдены!
+1.$0010.du bestand %1 niet gevonden!
+1.$0010.fr %1 fichier introuvable!
+1.$0010.tr 文件 %1 沒有找到！
+
+
+2.$0010.zh 国家或省不能为空!
+2.$0010.en Country or province cannot be blank!
+2.$0011.zh 只有比赛的管理员能修改数据!
+2.$0011.en Only manager of the match can modify data!
+2.$0012.zh 最大参与人数必须为整数!
+2.$0012.en Max users can only be integer!
+2.$0013.zh 比赛名称长度至少大于两位!
+2.$0013.en Length of match name must be greater than 2!
+2.$0014.zh 请输入报名截止日期!
+2.$0014.en Please input apply expiry date!
+2.$0015.zh 请输入比赛开始日期!
+2.$0015.en Please input match start date!
+2.$0016.zh 请输入比赛结束日期!
+2.$0016.en Please input match end date!
+2.$0017.zh 比赛开始日期不能小于报名截止日期!
+2.$0017.en Math start date cannot be less than apply expiry date!
+2.$0018.zh 比赛结束日期不能小于报名截止日期!
+2.$0018.en Math end date cannot be less than apply expiry date!
+2.$0019.zh 比赛结束日期不能小于比赛开始日期!
+2.$0019.en Math end date cannot be less than match start date!
+2.$0020.en Please select area!
+2.$0020.zh 请选择区域！
+2.$0021.zh 比赛地点不能为空!
+2.$0021.en Location cannot be blank!
+2.$0022.zh 比赛没有找到!
+2.$0022.en Match cannot be found!
+2.$0023.zh 只有管理员能维护数据!
+2.$0023.en Only managers can maitain data!
+2.$0024.zh 比赛状态不对!
+2.$0024.en Match status error!
+2.$0025.zh 搜索围棋部落服务号并加入才能申请参加比赛!
+2.$0025.en Search weiqibuluo and subscribe, then can join in the match!
+2.$0026.zh %1 已经加入比赛!
+2.$0026.en %1 already join in the match!
+2.$0027.zh 参加人员已经批准!
+2.$0027.en Attendee already approved!
+2.$0028.zh 不允许在线报名!
+2.$0028.en Applying online is not allowed!
+2.$0029.zh 申请名称不能为空!
+2.$0029.en Applying name cannot be blank!
+2.$0030.zh 比赛用名 %1 已经存在，请改用其他名称!
+2.$0030.en Name %1 already is used, please change to other name!
+2.$0031.zh 时间和地点不能为空!
+2.$0031.en Time&Location cannot be blank!
+2.$0032.zh 比赛中对手才能协商时间和地点!
+2.$0032.en Only the opponents of the game can negotiate Time&Location!
+2.$0033.zh %1 已经参加比赛!
+2.$0033.en %1 already attend the match!
+2.$0034.zh 传入错误处理参数!
+2.$0034.en Invalid message process type!
+2.$0035.zh 没有找到短信!
+2.$0035.en Invalid message id!
+2.$0036.zh 短信已经处理!
+2.$0036.en Message has already been processed!
+2.$0037.zh 请选择比赛结果！
+2.$0037.en Please select winner!
+2.$0038.zh 没有找到比赛！
+2.$0038.en Cannot find the game!
+2.$0039.zh 达到最大报名人数！
+2.$0039.en Cannot exceed max users！
+2.$0040.zh 没有找到直播记录！
+2.$0040.en Cannot locate live kifu！
+2.$0041.zh 对弈者不能删除超过五天的棋谱内容！
+2.$0041.en Cannot delete kifu beyond five days！
+2.$0042.en Turn game need two persons!
+2.$0042.zh 番棋赛需要两参赛棋手！
+2.$0043.en Cannot delete match with attendees!
+2.$0043.zh 请先删除参与者再删除比赛！
+2.$0044.en Please finish submatch at first!
+2.$0044.zh 请先结束分组比赛！
+2.$0045.en Please specify rank!
+2.$0045.zh 请设置段位！
+2.$0046.en Can only dispatch users among group match!
+2.$0046.zh 只能在分组比赛中分配人员！
+2.$0047.en Rank cannot be blank!
+2.$0047.zh 段位信息不能为空！
+2.$0048.zh 团体名称 %1 已经存在，请改用其他名称!
+2.$0048.en Team Name %1 already is used, please change to other name!
+2.$0049.en Each team must have same users!
+2.$0049.zh 各团队需要相同数量棋手！
+
+
+
+
+
+2.$1001.zh 我的字号
+2.$1001.en My name
+2.$1002.zh 部落管理
+2.$1002.en Manage clan
+2.$1003.zh 我要开课
+2.$1003.en Open course
+2.$1004.zh 新建比赛
+2.$1004.en New Match
+2.$1005.zh 比赛类型
+2.$1005.en Match type
+2.$1006.zh 循环赛
+2.$1006.en Round-robin
+2.$1007.zh 积分编排赛
+2.$1007.en Swiss tournament
+2.$1008.zh 比赛名称
+2.$1008.en Match name
+2.$1009.zh 管理员
+2.$1009.en Administrator
+2.$1010.zh 直播员设置
+2.$1010.en Setting Reporter
+2.$1011.zh 区域动态
+2.$1011.en Area games
+2.$1012.zh 番棋赛
+2.$1012.en Turn game
+2.$1013.zh 比赛地点
+2.$1013.en Location
+2.$1014.zh 报名截止日期
+2.$1014.en Apply expiry date
+2.$1015.zh 比赛开始日期
+2.$1015.en Begin date
+2.$1016.zh 比赛结束日期
+2.$1016.en End date
+2.$1017.zh 奖金及来源
+2.$1017.en Award and source
+2.$1018.zh 组织者
+2.$1018.en Organizer
+2.$1019.zh 参与人数上限
+2.$1019.en Max persons
+2.$1020.zh 允许在线报名
+2.$1020.en Permit applying online
+2.$1021.zh 比赛规则
+2.$1021.en Competition Rules
+2.$1022.zh 比赛进程
+2.$1022.en Evaluation
+2.$1023.zh 参加人员
+2.$1023.en Attendees
+2.$1025.zh 申请<br>批准
+2.$1025.en Apply<br>Approve
+2.$1026.zh 编号
+2.$1026.en #
+2.$1027.zh 名次
+2.$1027.en Place
+2.$1028.zh 积分
+2.$1028.en Points
+2.$1029.zh 大分
+2.$1029.en Major
+2.$1030.zh 对手
+2.$1030.en Minor
+2.$1031.zh 比赛安排
+2.$1031.en Schedule
+2.$1032.zh 盘数
+2.$1032.en Cnt
+2.$1033.zh 对手
+2.$1033.en Opponent pair
+2.$1034.zh 时间
+2.$1034.en Time
+2.$1035.zh 地点
+2.$1035.en Location
+2.$1036.zh 结果
+2.$1036.en Result
+2.$1037.zh 轮次
+2.$1037.en Rnd
+2.$1038.zh 参赛用名
+2.$1038.en Using name
+2.$1039.zh 申请参加
+2.$1039.en Apply for
+2.$1040.zh 回退至报名
+2.$1040.en Rollback to beginning
+2.$1041.zh 待协商
+2.$1041.en Nego.
+2.$1042.zh 未决
+2.$1042.en N/A
+2.$1043.zh 和棋
+2.$1043.en Draw
+2.$1044.zh 输
+2.$1044.en Lose
+2.$1045.zh 赢
+2.$1045.en Win
+2.$1046.zh 黑
+2.$1046.en B
+2.$1047.zh 白
+2.$1047.en W
+2.$1048.zh 协商时间和地点
+2.$1048.en Negotiating time & location
+2.$1049.zh 时间&地点
+2.$1049.en Time&Location
+2.$1050.zh 业余棋谱
+2.$1050.en Kifu of non-professional
+2.$1051.zh 专业棋谱
+2.$1051.en Kifu of professions
+2.$1052.zh 棋谱
+2.$1052.en Kifu
+2.$1053.zh 贴目
+2.$1053.en Komi
+2.$1054.zh 专业棋谱搜索
+2.$1054.en Search kifu of professions
+2.$1055.zh 按棋手名称
+2.$1055.en By name
+2.$1056.zh 按比赛名称
+2.$1056.en By tournament
+2.$1057.zh 段位
+2.$1057.en Rank
+2.$1058.zh 未设置段位水平
+2.$1058.en No rank
+2.$1059.zh 选择参赛人员
+2.$1059.en Invite competitors
+2.$1060.zh 字号
+2.$1060.en Search name
+2.$1061.zh 仅显示前10，请缩小搜索范围。
+2.$1061.en Please search less range, unlist name above 10.
+2.$1062.zh 邀请你参加 %1，请接受邀请。
+2.$1062.en Please accept the invitation of attending %1.
+2.$1063.zh 番数
+2.$1063.en Max turns
+2.$1064.zh 棋手1
+2.$1064.en Participant 1
+2.$1065.zh 棋手2
+2.$1065.en Participant 2
+2.$1066.zh < 
+//上一步
+2.$1066.en <
+//Previous
+2.$1067.zh >
+//下一步
+2.$1067.en >
+Next
+2.$1068.zh 黑胜
+2.$1068.en Black win
+2.$1069.zh 白胜
+2.$1069.en White win
+2.$1071.zh 结果录入
+2.$1071.en Input result
+2.$1072.zh 手机仅在参赛人之间可见，可输入8888；段位格式如1d, 1k
+2.$1072.en Mobile only visible amond attendees
+2.$1073.zh << 
+2.$1073.en <<
+2.$1074.zh >> 
+2.$1074.en >>
+2.$1075.zh >| 
+2.$1075.en >|
+2.$1076.zh |< 
+2.$1076.en |<
+2.$1077.zh 弃权 
+2.$1077.en Resign
+2.$1078.zh 比赛结束 
+2.$1078.en Finish
+2.$1079.zh 用时 
+2.$1079.en Time duration
+2.$1080.zh 指定直播人员
+2.$1080.en Specify live user
+2.$1081.zh 约战海报
+2.$1081.en Flyer of the war
+2.$1082.zh 当前直播人员
+2.$1082.en Current live user
+2.$1083.zh 开始比赛
+2.$1083.en Start game
+2.$1084.zh 赢
+2.$1084.en Win
+2.$1085.zh 和
+2.$1085.en Draw
+2.$1086.zh 输
+2.$1086.en Lose
+2.$1087.zh 约战信息
+2.$1087.en Match Info.
+2.$1088.zh 报名前台
+2.$1088.en Registration
+2.$1089.zh 说明
+2.$1089.en Remarks
+2.$1090.zh 直接输入
+2.$1090.en Input
+2.$1091.zh 分组比赛
+2.$1091.en Group match
+2.$1092.zh 分组名称
+2.$1092.en Group name
+2.$1093.zh 分派人员
+2.$1093.en Dispatch player
+2.$1094.en Rank
+2.$1094.zh 段位
+2.$1095.en Group match
+2.$1095.zh 所属分组
+2.$1096.en Exchange player
+2.$1096.zh 棋手对调
+2.$1097.en Add player
+2.$1097.zh 补充编排
+2.$1098.en Add administrator
+2.$1098.zh 新增管理员
+2.$1099.zh 团体联赛
+2.$1099.en Team match
+2.$1100.zh 团体管理
+2.$1100.en Team manager
+2.$1101.zh 创建团体
+2.$1101.en Create team
+2.$1102.zh 团体名称
+2.$1102.en Team name
+2.$1103.zh 台次
+2.$1103.en Seq
+2.$1104.zh 棋手
+2.$1104.en Player
+2.$1105.zh 点击姓名查看相关比赛安排
+2.$1105.en Click name for match schedule
+2.$1106.zh 团体积分
+2.$1106.en Team points
+2.$1107.zh 一台双倍积分
+2.$1107.en Double point for 1st
+2.$1108.zh 约架留言
+2.$1108.en Msg for fighting
+2.$1109.zh 锁定数据
+2.$1109.en Lock data
+2.$1110.zh 业余比赛搜索
+2.$1110.en Search competition
+2.$1111.zh 按创建人名
+2.$1111.en By creator
+2.$1112.zh 不计时对弈
+2.$1112.en Online go
+2.$1113.zh 创建对局
+2.$1113.en Create game
+2.$1114.zh 门当户对
+2.$1114.en Same rank
+2.$1115.zh Only you
+2.$1115.en Only you
+2.$1116.zh 偶遇
+2.$1116.en Random
+2.$1117.zh 执黑
+2.$1117.en Black
+2.$1118.zh 执白
+2.$1118.en White
+2.$1119.zh 猜先
+2.$1119.en Guess
+2.$1120.zh 贴子
+2.$1120.en Komi
+2.$1121.zh 个人擂台赛
+2.$1121.en Individual arena match
+2.$1122.zh 团体擂台赛
+2.$1122.en Team arena match
+2.$1123.zh 等级分
+2.$1123.en Rank
+2.$1124.zh 我的等级分铭牌
+2.$1124.en My rank brand
+2.$1125.zh 待审核比赛
+2.$1125.en Approving match
+2.$1126.zh 新建等级分
+2.$1126.en New rank brand
+2.$1127.zh 等级分名称
+2.$1127.en Rank brand name
+2.$1128.zh 其他棋友圈
+2.$1128.en Other rank brand
+2.$1129.zh 回退一局
+2.$1129.en Back one step
+2.$1130.zh 联系方式
+2.$1130.en Contact
+2.$1131.zh 请选择棋友圈
+2.$1131.en Please select rank brand
+2.$1132.zh 选择棋友圈
+2.$1132.en Select rank brand
+2.$1133.zh 部落小店
+2.$1133.en Store
+2.$1134.zh 胜2负0平1
+2.$1134.en Win2Lost0
+2.$1135.zh 胜2负1平1
+2.$1135.en Win2Lost1
+2.$1136.zh 积分方法
+2.$1136.en Calc method
+2.$1137.zh 一方弃权
+2.$1137.en Draw one site
+2.$1138.zh 安排双对局
+2.$1138.en Arrange double play
+2.$1139.zh 创建直播
+2.$1139.en Create live
+2.$1140.zh 双循环赛
+2.$1140.en Double round-robin
+2.$1141.zh 循环赛
+2.$1141.en Round-robin
+2.$1142.zh 淘汰赛
+2.$1142.en Knockout
+2.$1143.zh 积分编排赛
+2.$1143.en Round
+2.$1144.zh 连胜奖励
+2.$1144.en Liansheng
+2.$1145.zh 比赛轮次
+2.$1145.en Round
+2.$1146.zh 总得分
+2.$1146.en Score
+2.$1147.zh 结束本轮
+2.$1147.en Finish
+2.$1148.zh 编排下一轮
+2.$1148.en Plan next
+2.$1149.zh 职业初始分
+2.$1149.en P Score
+2.$1150.zh 业余D初始分
+2.$1150.en D Score
+2.$1151.zh 业余K初始分
+2.$1151.en K Score
+2.$1152.zh 确定结束本轮
+2.$1152.en Confirm finish round
+2.$1153.zh 胜分
+2.$1153.en Win score
+2.$1154.zh 胜3负0平2主将
+2.$1154.en Win3Lost0&2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

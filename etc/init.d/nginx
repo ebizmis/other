@@ -1,0 +1,48 @@
+#! /bin/sh
+# chkconfig: 2345 98 02
+# description: PostgreSQL RDBMS
+# Or, if you have chkconfig, simply:
+# chkconfig --add postgresql
+#
+# Proper init scripts on Linux systems normally require setting lock
+# and pid files under /var/run as well as reacting to network
+# settings, so you should treat this with care.
+
+# Original author:  Ryan Kirkpatrick <pgsql@rkirkpat.net>
+
+# contrib/start-scripts/linux
+
+test -x $DAEMON ||
+{
+	echo "$DAEMON not found"
+	if [ "$1" = "stop" ]
+	then exit 0
+	else exit 5
+	fi
+}
+
+# Parse command line parameters.
+case $1 in
+  start)
+	echo -n "Starting nginx: "
+	su - root -c "/usr/local/nginx/sbin/nginx &"
+	echo "ok"
+	;;
+  stop)
+	echo -n "Stopping nginx: "
+	su - root -c "/usr/local/nginx/sbin/nginx -s stop &"
+	echo "ok"
+	;;
+  restart)
+	echo -n "Restarting nginx: "
+	su - root -c "/usr/local/nginx/sbin/nginx -s reload &"
+	echo "ok"
+	;;
+  *)
+	# Print help
+	echo "Usage: $0 {start|stop|restart}" 1>&2
+	exit 1
+	;;
+esac
+
+exit 0

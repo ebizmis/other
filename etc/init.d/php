@@ -1,0 +1,51 @@
+#! /bin/sh
+# chkconfig: 2345 98 02
+# description: PostgreSQL RDBMS
+# Or, if you have chkconfig, simply:
+# chkconfig --add postgresql
+#
+# Proper init scripts on Linux systems normally require setting lock
+# and pid files under /var/run as well as reacting to network
+# settings, so you should treat this with care.
+
+# Original author:  Ryan Kirkpatrick <pgsql@rkirkpat.net>
+
+# contrib/start-scripts/linux
+
+test -x $DAEMON ||
+{
+	echo "$DAEMON not found"
+	if [ "$1" = "stop" ]
+	then exit 0
+	else exit 5
+	fi
+}
+
+PATH=$PATH:/usr/local/firebird/bin
+export PATH
+# Parse command line parameters.
+case $1 in
+  start)
+	echo -n "Starting php: "
+	su - root -c "/usr/local/php/sbin/php-fpm -R -D &"
+	echo "ok"
+	;;
+  stop)
+	echo -n "Stopping php: "
+    	su - root -c "pgrep php-fpm |xargs kill -s 9"
+	echo "ok"
+	;;
+  restart)
+	echo -n "Restarting php: "
+    	su - root -c "pgrep php-fpm |xargs kill -s 9"
+	su - root -c "/usr/local/php/sbin/php-fpm -R -D"
+	echo "ok"
+	;;
+  *)
+	# Print help
+	echo "Usage: $0 {start|stop|restart}" 1>&2
+	exit 1
+	;;
+esac
+
+exit 0
